@@ -3,11 +3,12 @@
 #EDA to discover insight and transaction volume
 #Build predictive model with Decision tree
 
-#1. Quality data checks, 2. Insight from data - High, 3. Segment data by time and visualize it
-#Correction
+#1. Quality data checks, 2. Insight from data, 3. Segment data by time and visualize it
+
 
 #Load packages and libraries
-library(readxl);library(plyr);library(lubridate); library(stringr);library(tidyverse);require(modelr);require(sp);require(leaflet);require(geosphere);require(knitr);require(rpart)
+library(readxl);library(plyr);library(lubridate); library(stringr);library(tidyverse);require(modelr)
+require(sp);require(leaflet);require(geosphere);require(knitr);require(rpart)
 
 ANZdata <- readxl::read_excel('C:/Users/user/Downloads/ANZ synthesised transaction dataset.xlsx')
 
